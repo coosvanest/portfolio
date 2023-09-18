@@ -2,7 +2,7 @@ body {
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url('img-min/homepage.jpg');
+    background-image: "../img-min/homepage.jpg";
     background-attachment: fixed;
     overflow: hidden;
 }
