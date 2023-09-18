@@ -1,0 +1,94 @@
+body { 
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url('/img-min/homepage.jpg');
+    background-attachment: fixed;
+    overflow: hidden;
+}
+    
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link { color:whitesmoke}
+
+a:visited { color: rgb(255, 0, 0);}
+
+a:hover {
+    color: aquamarine;
+}
+
+.hello {
+    text-align: center;
+    position: relative;
+    top: 175px;
+    color: rgb(5, 109, 83);
+}
+.name {
+    text-align: center;
+    font-size: 72pt;
+    /* color:rgb(9, 142, 109); */
+    color:whitesmoke;
+    font-weight:bolder;
+    /* font-family: embryo open; */
+    -webkit-text-stroke-color: darkblue;
+   -webkit-text-stroke-width: 2px;
+/*    background: -webkit-linear-gradient(#c4fa3a, #63fae6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    position: relative;
+    top: 85px;
+    text-shadow:0px 0px 15px rgb(5, 109, 83);
+}
+
+.click {
+    text-align: center;
+    position: relative;
+    right:100px;
+    top:20px;
+    color: rgb(5, 109, 83);
+}
+
+.oval {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 233, 93);
+    border-radius: 50%;
+    border: 2px solid rgb(5, 109, 83);
+    text-align: center;
+    margin:auto;
+    position: relative;
+    bottom: 30px;
+ }
+
+ .click2 {
+    text-align: center;
+    position: relative;
+    bottom: 85px;
+    left: 140px;
+    color: rgb(5, 109, 83);
+ }
+
+.rectangle {
+    height: fit-content;
+    width: fit-content;
+    background-color: antiquewhite;
+    margin:auto;
+    padding-top: 1px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 1px;
+    border: 2px solid rgb(5, 109, 83);
+    font-size: 10pt;
+    text-align: center;
+    position: relative;
+    top:100px;
+}
+
+
+
+
+

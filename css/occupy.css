@@ -1,0 +1,23 @@
+
+.text-block {
+    height: fit-content;
+    width: fit-content;
+    background-color: antiquewhite;
+    margin:auto;
+    padding-top: 1px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 1px;
+    border: 2px solid rgb(5, 109, 83);
+    font-size: 10pt;
+    text-align: center;
+    position: relative;
+    top:100px;
+    display: inline-block;
+}
+
+img {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+}
