@@ -1,11 +1,11 @@
  html{
-    cursor: url(/gif/dolphin.gif), auto;
+    cursor: url('../gif/dolphin.gif'), auto;
 }
 
 
 @font-face {
     font-family: Consolas;
-    src: url(/fonts/Consolas-Font/CONSOLA.TTF);
+    src: url('../fonts/Consolas-Font/CONSOLA.TTF');
 }
 
 

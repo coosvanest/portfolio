@@ -1,12 +1,12 @@
 @font-face {
     font-family: Consolas;
-    src: url(/fonts/Consolas-Font/CONSOLA.TTF);
-    src: url(/fonts/transfonter.org-20230111-145103/Consolas.woff);
+    src: url("../fonts/Consolas-Font/CONSOLA.TTF");
+    src: url("../fonts/transfonter.org-20230111-145103/Consolas.woff");
 }
 
  
 body { 
-        background-image:url('/img/dayone.jpg') ;
+        background-image:url('../img/dayone.jpg') ;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
