@@ -34,20 +34,32 @@ img {
     text-align: center;
 }
 
-.storytitle { width: 90;}
+.storytitle { 
+    width: 90;
+}
 
 .lifestory-slides {
     position: relative;
     text-align: center;
+    margin: auto;
     top: 100px;
 }
 
 .lifestory {
     width: 80%;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    top: 0px;
+}
+
+button {
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px){
-    .lifestory {width: 40%;}
+    .lifestory {width: 50%;}
     .insta-pf {width: 200px;}
     .storytitle {width:50%;}
 }
