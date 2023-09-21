@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(41, 223, 38);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: yellow;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+img {
+    border: 5px solid yellow;
+}
+
+.insta {
+    text-align: center;
+    position: relative;
+    top:60px;
+}
+
+.insta-pf:hover {opacity: 0.8;}
+
+.insta-pf {
+    border-radius: 100%;
+    width: 70%;
+}
+
+.storytitle-div {
+    position: relative;
+    top:100px;
+    text-align: center;
+}
+
+.storytitle { width: 90;}
+
+.lifestory-slides {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+.lifestory {
+    width: 80%;
+}
+
+@media only screen and (min-width: 768px){
+    .lifestory {width: 40%;}
+    .insta-pf {width: 200px;}
+    .storytitle {width:50%;}
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 5px solid yellow;
+}
+
+.akaii-video {
+    text-align: center;
+}
