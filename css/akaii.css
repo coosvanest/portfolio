@@ -35,7 +35,7 @@ img {
 }
 
 .storytitle { 
-    width: 90;
+    width: 90%;
 }
 
 .lifestory-slides {
@@ -46,7 +46,7 @@ img {
 }
 
 .lifestory {
-    width: 80%;
+    width: 90%;
     position: relative;
     text-align: center;
     display: inline-block;
@@ -58,15 +58,9 @@ button {
     margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 768px){
-    .lifestory {width: 50%;}
-    .insta-pf {width: 200px;}
-    .storytitle {width:50%;}
-}
-
 iframe {
-    width: 560px;
-    height: 315px;
+    width: 85%;
+    height: 85%;
     position: relative;
     top: 60px;
     margin: 0 auto;
@@ -76,4 +70,12 @@ iframe {
 
 .akaii-video {
     text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    .lifestory {width: 50%;}
+    .storytitle {width: 50%;}
+    .insta-pf {width: 200px;}
+    .storytitle {width:50%;}
+    iframe {width: 40%; height:200px;}
 }

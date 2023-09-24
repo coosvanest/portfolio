@@ -31,13 +31,15 @@ img {
 
 .akaii1:hover { opacity: 0.8;}
 
+.writing {text-align: center;}
 
 .writing:hover { opacity: 1;}
+
+.alternativeice {text-align: center;}
 
 button {
 margin: 0;
   position:relative;
-  left: 644px;
 display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
