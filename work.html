@@ -139,15 +139,12 @@ myButton.addEventListener("click", function() {
 <h6> writing </h6>
 
 
-<div class="ijs-ink"> 
-    <a href="ijs-ink.html">
-        <img src="img-min/ijs-ink/7 fan-min2.jpg"
-        title="31 Ice Creams"
-        alt="31 Ice Creams"
-        loading="lazy"
-        >
+<div class="ice-ink"> 
+    <a href="31icecreams.html">
+        <img  class="icetober" src="img-min/ijs-ink/7 fan-min2.jpg">
     </a>
-    </div>
+ </div>
+   
 <p> 31 Ice Creams </p>    
 <h6> linework series </h6>
 
@@ -174,9 +171,10 @@ myButton.addEventListener("click", function() {
         <img class="melting-polaroids" src="img-min/ijs2/pola7.JPG" >
         <img class="melting-polaroids" src="img-min/ijs2/pola8.JPG" >
 
-    </div>
+    
 
 <script>
+    // JavaScript code
     var slideIndex = 0;
         carousel();
         
@@ -193,34 +191,41 @@ myButton.addEventListener("click", function() {
         }
         </script>
 
+</div>
+
 <p> Melting Polaroids </p> 
 <h6>photography</h6>   
 
 <div class="alternativeice"> 
-    
-        <img id="altice" src="img-min/ijs2/upside-down-min.jpg" loading="lazy">
-        <button id="alticebutton"> click to discover </button>
+<img class="altice" src="img-min/ijs2/upside-down-min.jpg">
+<img class="altice" src="img-min/ijs2/chicken-leg-min.jpg">
+<img class="altice" src="img-min/ijs2/patience-min.jpg">
+
+<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="right" onclick="plusDivs(+1)">&#10095;</button>
+</div>        
 
     <script>
-    // JavaScript code
-    const altice = document.getElementById("altice");
-    const alticebutton = document.getElementById("alticebutton");
-    
-    alticebutton.addEventListener("click", function() {
-      if (altice.src.endsWith("upside-down-min.jpg")) {
-        altice.src = "img-min/ijs2/chicken-leg-min.jpg";}
-      if (altice.src.endsWith("chicken-leg-min.jpg"))  {
-        altice.src = "img-min/ijs2/patience-min.jpg";}
-    if (altice.src.endsWith("patience-min.jpg"))  {
-        altice.src = "img-min/ijs2/upside-down-min.jpg";}
+    // JavaScript code    
+            var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("altice");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length} ;
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }
+        </script>
 
-    //   } else {
-    //     altice.src ="img-min/ijs2/upside-down-min.jpg";
-    //   }
-    });
-
-    </script>
- </div> 
 
 <p> Alternative Ways of Eating Ice Cream </p>
 <h6> paint & cardboard </h6>

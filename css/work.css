@@ -35,10 +35,26 @@ img {
 
 .writing:hover { opacity: 1;}
 
-.alternativeice {text-align: center;}
+.alternativeice {
+    text-align: center;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.altice {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    top: 0px;
+}
+
+.ice-ink {text-align: center;}
 
 button {
-margin: 0;
+margin-top: 10px;
   position:relative;
 display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
@@ -60,6 +76,7 @@ img {
     width: 30%;
     border: 5px solid yellow;
 }
+.altice {width:30%;}
 
 }
 
