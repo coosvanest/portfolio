@@ -67,8 +67,7 @@ button {
 }
 
 iframe {
-    width: 85%;
-    height: 85%;
+    width: 220px; height:220px;
     position: relative;
     top: 60px;
     margin: 0 auto;
@@ -85,5 +84,5 @@ iframe {
     .storytitle {width: 50%;}
     .insta-pf {width: 200px;}
     .storytitle {width:50%;}
-    iframe {width: 40%; height:200px;}
+    iframe {width: 220px; height:220px; }
 }
