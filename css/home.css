@@ -81,7 +81,7 @@ a:hover {
 
 .rectangle {
     height: fit-content;
-    width: 5%;
+    width: 10%;
     background-color: rgb(255, 255, 255);
     margin:auto;
     padding-top: 1px;
@@ -102,6 +102,11 @@ a:hover {
 .aboutme {
     color: rgb(5, 109, 83);
 }
+
+@media only screen and (min-width: 768px) {
+   .rectangle { width: 5%;}
+    
+    }
 
 
 
