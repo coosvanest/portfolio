@@ -1,6 +1,55 @@
 body {
     background-color:plum;
+    height:100%;
 }
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 5%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 37.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu2 {
+    background-color: rgb(255, 255, 255);
+    width: 5%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 44.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu3 {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 51.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu:hover, .menu2:hover, .menu3:hover {
+    background-color: rgb(52, 221, 43);
+}
+
+div a:link {color: plum; text-decoration: none;}
+div a:visited {color: plum; text-decoration: none;}
+div a:hover {color: aqua;}
+div a:active {color: chartreuse;}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -32,7 +81,7 @@ img {
 .akaii1:hover, .occupy1:hover, .stickyfeet1:hover, .stickyfeet2:hover, .ice-princess1:hover,
 .html-zine1:hover, .queer-zine1:hover, .black-friday1:hover, .icetober:hover, .dance1:hover, .dance2:hover,
 .essay:hover
-{ opacity: 0.8;}
+{ border: 5px solid aqua}
 
 .writing {text-align: center;}
 
@@ -80,6 +129,10 @@ img {
     border: 5px solid yellow;
 }
 .altice {width:30%;}
+.menu, .menu2, .menu3 { position:fixed; left:1%;}
+.menu {top:1%;}
+.menu2 {top:6%;}
+.menu3 {top:11.05%; width:5%;} 
 
 }
 

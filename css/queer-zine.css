@@ -12,6 +12,7 @@ p {
 .sex {position: relative; top:100px; }
 
 a:visited {color: orange;}
+a:hover {color:chartreuse;}
 
 .everything {
     text-align: center;
